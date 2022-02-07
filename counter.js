@@ -1,0 +1,22 @@
+
+// camelcase
+let countEl= document.getElementById("count-el")
+//document object model
+//how you use js to modify website
+//html document
+// html douc,emt into js object
+
+//document.getElementById("count-el") --> asking html document
+console.log(countEl)
+let counter=0;
+function increment()
+{
+//  console.log("button clicked")
+
+  counter++;
+  countEl.innerText=counter //replying html document
+}
+function save()
+{
+  console.log(counter)
+}
